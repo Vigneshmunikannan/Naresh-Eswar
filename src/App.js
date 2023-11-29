@@ -11,8 +11,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/Naresh-Eswar" element={<Page/>}/>
-          <Route path="/Naresh-Eswar/works" element={<Works />} />
-          <Route path="/Naresh-Eswar/gallery" element={<Gallery2/>}/>
+          <Route path="/works" element={<Works />} />
+          <Route path="/gallery" element={<Gallery2/>}/>
         </Routes>
         <Our/>
       </Router>
