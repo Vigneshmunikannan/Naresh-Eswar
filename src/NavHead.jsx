@@ -36,14 +36,14 @@ function NavHead() {
           Home
         </a>
         <a href="" onClick={closeNavbar}>
-        <Link to="/gallery">Gallary</Link>
+        <Link to="/Naresh-Eswar/gallery">Gallary</Link>
         </a>
         <a href="#about" onClick={() => { closeNavbar(); scrollToSection(aboutRef);}}>
           About
         </a>
         {/* Use navigateToWorks instead of closeNavbar for the Portfolio link */}
         <a onClick={navigateToWorks}>
-		<Link to="/works">Works</Link>
+		<Link to="/Naresh-Eswar/works">Works</Link>
         </a>
         <a href="#contact" onClick={closeNavbar}>
           Contact
