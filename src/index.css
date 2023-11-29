@@ -1,0 +1,353 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+*{
+  scroll-behavior: smooth !important; 
+  --scroll-duration: 0.10s; 
+}
+html,body{
+  scroll-transition: scroll --scroll-duration ease-out !important;
+}
+#contact{
+  background-image: url("./images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  align-items: center;
+}
+.icons-item{
+  width: 50px;
+  height: 30px;
+}
+
+.logo{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.name{
+  font-family: 'Josefin Sans', sans-serif;
+ font-size: xx-large;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.image-slider-container {
+  position: relative;
+  width: 100%;
+  /* max-width: 800px; Set the max width of the slider container */
+  margin: 0 auto; /* Center the slider */
+  overflow: hidden;
+}
+
+.image-slider {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.slide {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.active {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Tailwind code */
+
+/* gallery */
+@layer base {
+  .gallery {
+    @apply bg-color-100;
+  }
+  .gallery-title {
+    @apply text-center text-5xl;
+  }
+}
+
+/* works */
+#works {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display three items in a row */
+  gap: 20px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.container-detail {
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  #works {
+    grid-template-columns: repeat(2, 1fr); /* Display two items in a row for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #works {
+    grid-template-columns: 1fr; /* Display one item in a row for even smaller screens */
+  }
+}
+
+
+
+
+
+
+/* contact us */
+
+/* portfolio */
+
+
+@media (max-width: 500px){
+   .portfolio{
+    @apply flex-col justify-center items-center 
+   }
+   .portfolio-1{
+    @apply m-3 
+   }
+   .portfolio-2{
+    @apply w-[90%]
+   }
+   .mySwiper{
+    @apply w-[100%] bg-black
+   }
+   .container-1{
+    @apply w-[100%]
+   }
+   .port{
+    @apply text-4xl
+   }
+}
+
+/* reponsive code */
+/* gallery */
+@media (max-width: 768px) {
+  .gallery-photo {
+    @apply grid-cols-2 gap-6 !important;
+  }
+  .gallary-image {
+    @apply m-0 !important;
+  }
+  .gallary-image {
+    @apply min-h-[350px]  max-h-[350px] !important;
+  }
+  .gallary-image img {
+    @apply min-h-[350px]  max-h-[350px] !important;
+  }
+}
+@media (max-width: 450px) {
+  .gallery-photo {
+    @apply flex flex-col !important;
+  }
+}
+
+/* done by sud */
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nosifer&display=swap");
+
+
+
+.fontstyle {
+  font-family: "Nosifer", sans-serif;
+}
+.subfont {
+  font-family: "Bree Serif", serif;
+}
+
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust the width as needed */
+  gap: 20px; /* Adjust the gap between videos as needed */
+  justify-items: center; /* Center videos horizontally */
+  align-items: center; /* Center videos vertically */
+}
+
+.video {
+  text-align: center;
+}
+
+.video img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+  /* overflow-x:hidden; */
+  
+}
+
+:root {
+	--mainColor: #aa8b56;
+	--mainColorLight: #4f6f52;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+.logo{
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+@media only screen and (max-width: 400px) {
+  .logo{
+    font-size: x-large;
+  }
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding:0% 3%;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+
+nav a {
+	margin: 0 2rem;
+	color: var(--textColor);
+	text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+
+}
+.contact{
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 512px) {
+  .contact{
+    display:none;
+  }
+  header{
+    height:12vh;
+    padding :0% 8%;
+  }
+  .left{
+    max-height: 300px;
+  }
+ 
+}
+
+@media only screen and (max-width: 768px) {
+  .right{
+  padding:0rem;
+}
+ .About{
+	padding-top:3rem;
+	/* padding-bottom:2rem; */
+ }
+ .right{
+	 padding-top:2rem;
+ }
+}
+
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -120vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 0.7s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(120vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.2rem;
+}
+
+}
