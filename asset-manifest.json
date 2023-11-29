@@ -1,27 +1,37 @@
 {
   "files": {
-    "main.css": "/Naresh-Eswar/static/css/main.5ad4786d.css",
-    "main.js": "/Naresh-Eswar/static/js/main.0044620b.js",
+    "main.css": "/Naresh-Eswar/static/css/main.f76d6211.css",
+    "main.js": "/Naresh-Eswar/static/js/main.d41acae3.js",
     "static/media/5.jpeg": "/Naresh-Eswar/static/media/5.f52c9ec2df935aff808c.jpeg",
     "static/media/7.jpeg": "/Naresh-Eswar/static/media/7.14334af8e77efce69cf3.jpeg",
     "static/media/4.jpeg": "/Naresh-Eswar/static/media/4.6f9c6542b064838b6b88.jpeg",
     "static/media/3.jpeg": "/Naresh-Eswar/static/media/3.f0a8600e72e953792534.jpeg",
     "static/media/6.jpeg": "/Naresh-Eswar/static/media/6.6c870a860616d9efa0d6.jpeg",
     "static/media/2.jpeg": "/Naresh-Eswar/static/media/2.3ecdcb806230dc01b1d0.jpeg",
+    "static/media/image00004.jpeg": "/Naresh-Eswar/static/media/image00004.a0398724489d6f362eb2.jpeg",
+    "static/media/image00003.jpeg": "/Naresh-Eswar/static/media/image00003.f2795012bec4543b0323.jpeg",
+    "static/media/image00009.jpeg": "/Naresh-Eswar/static/media/image00009.635aae1bc7c79b3366f1.jpeg",
     "static/media/About.jpeg": "/Naresh-Eswar/static/media/About.7c124b20ae0751ed4452.jpeg",
+    "static/media/image00005.jpeg": "/Naresh-Eswar/static/media/image00005.0975a5c73badb6389bdc.jpeg",
+    "static/media/image00002.jpeg": "/Naresh-Eswar/static/media/image00002.c557ab5d6e71bc0eb9dd.jpeg",
     "static/media/Homeimg.jpeg": "/Naresh-Eswar/static/media/Homeimg.79114bc13a753ab749ef.jpeg",
     "static/media/8.jpeg": "/Naresh-Eswar/static/media/8.030dd5e9e8c06f743190.jpeg",
+    "static/media/image00007.jpeg": "/Naresh-Eswar/static/media/image00007.9aeb02b25f4f6d66d1ee.jpeg",
+    "static/media/image00010.jpeg": "/Naresh-Eswar/static/media/image00010.a22b5dfe38ce12ff1c4f.jpeg",
+    "static/media/image00008.jpeg": "/Naresh-Eswar/static/media/image00008.e100de8aa6d67a263a33.jpeg",
+    "static/media/image00001.jpeg": "/Naresh-Eswar/static/media/image00001.8c4253b3c3833b34893a.jpeg",
     "static/media/1.jpg": "/Naresh-Eswar/static/media/1.f39e27d81d6abf98a2cd.jpg",
     "static/media/azha.jpg": "/Naresh-Eswar/static/media/azha.19c0780adea3c7db1a63.jpg",
     "static/media/vana.jpg": "/Naresh-Eswar/static/media/vana.f1acbb4af20e331bb0f9.jpg",
     "static/media/pandvavar.jpg": "/Naresh-Eswar/static/media/pandvavar.6f6babd5966fc7277f5c.jpg",
+    "static/media/image00006.jpeg": "/Naresh-Eswar/static/media/image00006.35b2c364566d79af5b3c.jpeg",
     "static/media/chiti.jpg": "/Naresh-Eswar/static/media/chiti.a23e797308515354d38d.jpg",
     "index.html": "/Naresh-Eswar/index.html",
-    "main.5ad4786d.css.map": "/Naresh-Eswar/static/css/main.5ad4786d.css.map",
-    "main.0044620b.js.map": "/Naresh-Eswar/static/js/main.0044620b.js.map"
+    "main.f76d6211.css.map": "/Naresh-Eswar/static/css/main.f76d6211.css.map",
+    "main.d41acae3.js.map": "/Naresh-Eswar/static/js/main.d41acae3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ad4786d.css",
-    "static/js/main.0044620b.js"
+    "static/css/main.f76d6211.css",
+    "static/js/main.d41acae3.js"
   ]
 }
