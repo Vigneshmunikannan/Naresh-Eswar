@@ -5,6 +5,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Page from "./Page"
 import Gallery2 from "./Gallery2";
+
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
         <Our/>
       </Router>
     </div>
+
   );
 }
 

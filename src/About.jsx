@@ -23,5 +23,6 @@ Then he entered the acting Industry as he always had a passion for acting.
       <img src={Aboutimg} alt="" className="p-3 sm:p-10 md:p-10 lg:p-12 xl:p-20 h-auto md:max-h-full rounded" />
     </div>
   </div>
+  
   );
 }
